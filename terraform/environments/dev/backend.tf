@@ -25,7 +25,7 @@
 
 terraform {
   backend "s3" {
-    bucket       = "eventhub-tfstate-chimdi"
+    bucket       = "eventhub-tfstate-raphael"
     key          = "dev/terraform.tfstate"
     region       = "eu-west-2"
     encrypt      = true
