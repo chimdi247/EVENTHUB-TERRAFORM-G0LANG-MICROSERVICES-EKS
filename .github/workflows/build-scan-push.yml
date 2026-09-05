@@ -62,6 +62,7 @@ concurrency:
 
 permissions:
   contents: read
+  id-token: write
   # Required to publish Trivy results to the repository's Security tab.
   security-events: write
   # codeql-action/upload-sarif calls GET /repos/{owner}/{repo}/actions/runs/{id}
